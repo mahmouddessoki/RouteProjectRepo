@@ -1,0 +1,181 @@
+body
+{
+    overflow-x: hidden;
+}
+#home h1
+{
+    font-size:3rem;
+    color:#fff;
+}
+#home p
+{
+    color:lightgray !important;
+    font-weight: 500;
+    font-size: 1rem;
+}
+#home h1::after
+{
+    content: " TEMPLATE";
+    animation: rewrite 5s 1s normal infinite;
+}
+@keyframes rewrite
+{
+    0%{content:" SERVICES";opacity: 1;}
+    50%{content:" SOLUTIONS";opacity: 1;}
+    100%{content:" TEMPLATE";opacity: 1;}
+}
+#home button
+{
+    background-color: #14bf98;
+    border:1px solid #14bf98;
+    font-size:1rem;
+    padding: 1rem 2.5rem 1rem 2.5rem;
+    font-weight: 500;
+    
+}
+#home button:hover
+{
+    background-color: transparent;
+    color:#14bf98;
+}
+#home
+{
+    background-image: url(../images/about.jpg);
+    background-position: center center;
+    background-repeat: none;
+    background-size: cover;
+
+}
+#home .homeContent
+{
+    background-color: rgba(0,0,0,0.5);
+}
+
+.navigation .nav_icons a:hover .outer,
+.navigation .nav_icons a:hover .inner
+{
+    transition: 0.2s;
+}
+.navigation .nav_icons a .outer
+{
+    color: #14bf98 !important;
+}
+.navigation .nav_icons a:hover .outer
+{
+    color:white !important;
+}
+.navigation .nav_icons a:hover .inner
+{
+    color:#14bf98 !important;
+}
+.navigation ul li a
+{
+    color:white !important;
+    transition: 0.3s;
+    font-weight: 600;
+    float: left;
+}
+.navigation ul .active a
+{
+    color: #14bf98 !important;
+}
+.navigation ul li:hover a
+{
+    color:#14bf98 !important;
+}
+.navigation .navbar
+{
+    width: 100%;
+    background-color: transparent !important;
+    position: absolute;
+    padding-top: 1rem;
+}
+.navigation .navbar .navbar-brand img
+{
+    width:7rem;
+}
+
+.title
+{
+    color:#14bf98 !important;
+
+}
+#intro .imgContainer img
+{
+    transition: 0.2s;
+}
+#intro .imgContainer img:hover
+{
+    transform: scale(1.2);
+    
+}
+.serviceContainer
+{
+    border:0.5px solid #5c5c5c
+}
+#services
+{
+    background-color: rgb(230, 225, 225);
+}
+#services .content p,#services .content ul li
+{
+    color: rgb(104, 95, 95);
+}
+#services .content .secondP
+{
+    font-size: 1.1rem
+}
+#services .content .but
+{
+    transform: translateY(5%);
+    z-index: 1;
+    transition: 0.1s;
+    width: 100%;
+   
+}
+#services .content button:hover
+{
+    background-color: white !important;
+    border:1px solid #14bf98;
+    color: #14bf98;
+}
+
+#call
+{
+    background-color: #153e52;
+}
+#call .label-control
+{
+    position: absolute;
+    color: white;
+    top:0.7rem;
+    left: 1rem;
+}
+#call .form-control
+{
+    height: 50px;
+    padding:0 1rem;
+    width:90%;
+    background-color: #2a5d77 !important;
+    border-color: #39728f !important;
+    color: white !important;
+}
+#call .form-control:focus,#call .form-control:hover
+{
+    border-color: white !important;
+}
+#call button
+{
+    background-color: #14bf98 !important;
+    width: 90%;
+    height: 50px;
+    font-size: 1.45rem;
+    border:1px solid #14bf98;
+    border-radius: 0.25rem;
+    transition: all 0.2s;
+    
+}
+#call button:hover
+{
+    background-color: transparent !important;
+}
